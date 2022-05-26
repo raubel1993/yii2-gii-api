@@ -1,0 +1,25 @@
+{
+    "name": "rguerral/yii2-gii-api",
+    "description": "Generator api rest for Yii 2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","gii","code generator","api","rest"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raubel Guerra",
+            "email": "raubel1993@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii": "~2.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "rguerral\\gii\\": "src"
+        }
+    }
+}
