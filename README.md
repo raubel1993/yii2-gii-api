@@ -29,6 +29,7 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 $config['modules']['gii'] = [
-        'class' => 'rguerral\gii\Module',
+        'class' => 'yii\gii\Module',
+        'as GiiBehaviors' => \rguerral\gii\GiiBehaviors::class,
 ];
 ```
