@@ -1,6 +1,6 @@
 <?php
 
-namespace rguerral\gii\generators\model;
+namespace rgl\gii\generators\model;
 
 use yii\base\NotSupportedException;
 use yii\db\Schema;

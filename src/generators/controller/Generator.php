@@ -1,6 +1,6 @@
 <?php
 
-namespace rguerral\gii\generators\controller;
+namespace rgl\gii\generators\controller;
 
 use yii\db\BaseActiveRecord;
 use yii\filters\AccessRule;

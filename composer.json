@@ -1,5 +1,5 @@
 {
-    "name": "rguerral/yii2-gii-api",
+    "name": "rgl/yii2-gii-api",
     "description": "Generator api rest for Yii 2",
     "type": "yii2-extension",
     "keywords": ["yii2","gii","code generator","api","rest"],
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "rguerral\\gii\\": "src"
+            "rgl\\gii\\": "src"
         }
     }
 }

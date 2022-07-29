@@ -1,6 +1,6 @@
 <?php
 
-namespace rguerral\gii;
+namespace rgl\gii;
 
 
 class GiiBehaviors extends \yii\base\Behavior
@@ -9,18 +9,18 @@ class GiiBehaviors extends \yii\base\Behavior
         'model' => [
             'class' => \yii\gii\generators\model\Generator::class,
             'templates' => [ //setting for out templates
-                'default' => '@rguerral/gii/generators/model/api-rest', // template name => path to template
+                'default' => '@rgl/gii/generators/model/api-rest', // template name => path to template
             ]
         ],
         'crud' => [
             'class' => 'yii\gii\generators\crud\Generator',
         ],
         'controller' => [
-            'class' => \rguerral\gii\generators\controller\Generator::class,
+            'class' => \rgl\gii\generators\controller\Generator::class,
             'baseClass' => 'yii\rest\Controller',
             'actions' => '',
             'templates' => [ //setting for out templates
-                'default' => '@rguerral/gii/generators/controller/api-rest', // template name => path to template
+                'default' => '@rgl/gii/generators/controller/api-rest', // template name => path to template
             ]
         ],
         'form' => [
